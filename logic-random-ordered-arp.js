@@ -1,4 +1,9 @@
-// Allows users to create a sequence that keeps repeating. Example use case: to test out melodies.
+/** 
+* Repeats the pattern like an classic arpegiator, except:
+* - the pattern will be repeated on different octavias, randomly chosen
+* - the notes in the same pattern will stay ordered (up, down) or not (random)
+* - additionnaly, can choose note length, humanize quantification, division, randomness options
+*/
 
 var NeedsTimingInfo = true;
 var activeNotes = [];
