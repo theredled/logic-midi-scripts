@@ -1,4 +1,6 @@
-// Allows users to create a sequence that keeps repeating. Example use case: to test out melodies.
+/**
+* An arpegiator that keeps note playing order
+*/
 
 var NeedsTimingInfo = true;
 var activeNotes = [];
